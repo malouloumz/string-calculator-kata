@@ -19,8 +19,7 @@ describe("Calculator", () => {
 
   it('newline delimited returns the sum', () => {
     expect(calculator.add('1\n2')).toEqual(3);
-    expect(calculator.add('1\n2,3')).toEqual(6);
-
+    expect(calculator.add('6\n4')).toEqual(10);
   });
 
   it('three numbers delimited either way returns the sum', () => {
